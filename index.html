@@ -3,9 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Min portfolio</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: darkblue;
+        }
+        img{
+            display: block;
+            width: 30%;
+            margin: auto;
+        }
+        h1{
+            text-align: center;
+            margin: 20px;
+            color: chocolate;
+        }
+        h2{
+            font-size: xx-large;
+            color: rgb(228, 197, 175);
+        }
+        a{
+            color: rgb(228, 197, 175);
+            background-color: rgb(24, 73, 117);
+            font-size: larger;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 10px;
+            border: 2px solid red;
+            margin: 5px;
+        }
+        a:hover{
+            background-color: rgb(152, 152, 225);
+            color: yellow;
+        }
+        .nettsider{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(16, 105, 161);
+            padding: 50px;
+            border-radius: 10px;
+            border: 2px solid burlywood;
+            margin: 40px;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Velkommen til min IT-side!</h1>
+    <img src="Om meg Slavik/bilder/MegParis.jpg" alt="Et bilde av meg">
+    <div class="nettsider">
+        <h2>Jeg har laget noen nettsider som:</h2>
+        <a target="_blank" href="jsquiz.html">En quiz</a>
+        <a target="_blank" href="Om meg Slavik/Hjem.html">Et lite system med nettsider om meg</a>
+        <a target="_blank" href="side12dyrgrid.html">Og en side om dyr med litt variert layout!</a>
+    </div>
 </body>
 </html>
